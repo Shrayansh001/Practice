@@ -3,17 +3,20 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { DataTable } from "../PhoneDataTable/PhoneDataTable";
+import ContactPhoneOutlinedIcon from '@mui/icons-material/ContactPhoneOutlined';
 import DataTable2 from "../AddressDataTable/AddressDataTable";
+import { blue } from "@mui/material/colors";
+import "./header2.css"
 
 export const Header2 = () => {
   const [show, setshow] = useState(1);
 
   return (
     <>
-      <Navbar style={{ margin: "8px" }} bg="white" variant="light">
+      <Navbar style={{ margin: "2px" }} bg="white" variant="light">
         <Container>
-          <Navbar.Brand href="#home">Contact Information</Navbar.Brand>
-          <Nav className="me-auto">
+          <Navbar.Brand href="#home" style={{fontSize:'16px'}}> <ContactPhoneOutlinedIcon className="ContactIcon"/>  Contact Information</Navbar.Brand>
+          <Nav className="me-auto" style={{fontSize:'12px'}}>
             <Nav.Link
               href="#Phone"
               onClick={(event) => {

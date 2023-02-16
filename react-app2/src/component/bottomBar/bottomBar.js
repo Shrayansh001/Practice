@@ -1,26 +1,44 @@
-import React from 'react'
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import Card from 'react-bootstrap/Card';
-
+import React from "react";
+import Card from "react-bootstrap/Card";
+import "./bottomBar.css"
 
 export const BottomBar = () => {
   return (
-    <Card>
-    <Navbar style={{margin:'8px', boxShadow:'4px'}} bg="light" variant="light" >
-      <Container>
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-        <Nav className="me-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
-        </Nav>
-      </Container>
-    </Navbar>
+    <Card className="card">
+      {/* <Navbar
+        style={{ margin: "1px", boxShadow: "8px" }}
+        bg="light"
+        variant="light"
+      >
+        <Container>
+          <Navbar.Brand href="#home">Custom</Navbar.Brand>
+          <Nav className="me-auto"></Nav>
 
-    <div>
-    </div>
+        </Container>
+      </Navbar> */}
+      <div>
+        <div className="custom-header">
+          <div className="custom-title-box">
+            <p>.</p>
+            <p>Custom</p>
+          </div>
+          <p>....</p>
+        </div>
+        <hr className="line"/>
+        <div className="custom-container">
+          <div className="custom-column">
+            <p>Custom field1 <br/> 123456</p>
+            
+          </div>
+          <div className="custom-column">
+            <p>Custom field2 <br/> **** ** 1234</p>
+          </div>
+          <div className="custom-column">
+            <p>Custom field <br/> 123456</p>
+            
+          </div>
+        </div>
+      </div>
     </Card>
-  )
-}
+  );
+};

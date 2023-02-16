@@ -11,7 +11,7 @@ import { BottomBar } from "../bottomBar/bottomBar";
 
 export const PaymentModal = () => {
   return (
-    <Card style={{ width: "48rem" }} className="paymentContainer">
+    <Card style={{ width: "48rem"}} className="paymentContainer">
       <Header />
       <Header2 />
 

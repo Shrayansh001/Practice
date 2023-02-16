@@ -2,7 +2,11 @@
     margin-left: 180px !important
 }
 
+.ConsumerDetails{
+    color: blue;
+}
+
 .nav-link.one{
     color: green;
-    font-size: larger;
+    font-size: 20px;
 }

@@ -5,7 +5,7 @@ import './addressDataTable2.css'
 
   const DataTable2 = () => {
   return (
-    <Table className='addressDataTable' striped bordered hover size="sm">
+    <Table className='addressDataTable' striped bordered hover size="s">
 <thead>
       <tr >
         <th>TYPE</th>
