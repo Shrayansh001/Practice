@@ -1,0 +1,112 @@
+.Card-Image{
+    /* background-image: url("https://wallpaperaccess.com/full/537586.jpg"); */
+    margin-top: -132px ;
+    color: white;
+    padding:0;
+    margin-bottom:0;
+}
+
+.Dropdown{
+    justify-content: space-around;
+    color: black;
+    background-color: white;
+    margin-left: 12px;
+    margin-bottom: 36px;
+    border-radius: 0;
+    width: 280px;
+}
+
+.Button{
+    width: 17rem;
+    height: 2rem;
+    margin: 12px;
+     margin-left: 4px;
+     align-items: center;
+     display: flex;
+     
+    /* margin-top: 9px;
+    margin-bottom: 9px;  */
+}
+.midSection{
+    margin-top: 5px;
+    /* font-size: 12px; */
+}
+
+.midSectionCard h1{
+    font-size: 20px;
+}
+
+.midSectionCard h2{
+    font-size: 16px;
+}
+
+.midSectionCard p{
+    font-size: 12px;
+}
+.midSectionCard{
+    margin:20px;
+    border-top:2px solid gray;
+    /* border-left:none;
+    border-right:none;
+    border-bottom:none; */
+    /* height:20%; */
+    /* border-style: solid; */
+    /* border-color: black; */
+}
+.cardInput{
+    margin-top: 8px;
+    border-radius: 12px;
+}
+.topSection{
+    padding:8px;
+    height:50%;
+}
+
+.midSectionCard h1{
+    font-size: 12px;
+}
+
+.midSectionCard h2{
+    font-size: 10px;
+}
+.btn-container{
+    background-color: white;
+    margin:0
+}
+.card{
+    display:flex;
+    flex-direction: column;
+    padding:8px;
+    border-top:2px solid gray;
+    border-left:none;
+    border-right:none;
+    border-bottom:none;
+    border-radius: 0;
+    height:20%;
+}
+.title{
+    color: gray;
+    font-size: 12px;
+}
+.sub-title{
+    color:gray;
+    font-size: 10px;
+}
+.text{
+    color:black;
+    font-size: 12px;
+    padding:0;
+}
+.searchbar-icon{
+    display: flex;
+}
+
+.icon-class{
+   margin-left: 135px;
+}
+.search-button {
+    border-radius: 12px;
+    margin-bottom: -20px;
+    width: 70%;
+    margin-left: 35px;
+}

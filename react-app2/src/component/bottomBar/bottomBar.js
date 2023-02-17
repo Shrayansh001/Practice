@@ -1,5 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import MemoryOutlinedIcon from '@mui/icons-material/MemoryOutlined';
+import MoreHorizOutlinedIcon from '@mui/icons-material/MoreHorizOutlined';
 import "./bottomBar.css"
 
 export const BottomBar = () => {
@@ -19,10 +21,10 @@ export const BottomBar = () => {
       <div>
         <div className="custom-header">
           <div className="custom-title-box">
-            <p>.</p>
-            <p>Custom</p>
+          <MemoryOutlinedIcon className="Custom-Icon"/>
+            <p className="Custom-Text">   Custom</p>
           </div>
-          <p>....</p>
+          <MoreHorizOutlinedIcon className="Three_Dot-Icon"/>
         </div>
         <hr className="line"/>
         <div className="custom-container">

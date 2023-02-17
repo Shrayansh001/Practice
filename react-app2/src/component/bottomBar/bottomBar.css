@@ -11,6 +11,7 @@
 .line{
     color:black;
     margin-left:25px;
+    margin-right: 25px;
 }
 .custom-header{
     display:flex;
@@ -25,4 +26,23 @@
     flex-direction: row;
     padding:0;
     font-size: 12px;
+}
+
+.Custom-Icon{
+    margin-top: 14px;
+    color: blue;
+    size: 18px;
+    margin-bottom: 0px;
+}
+
+.Custom-Text{
+    color: black;
+    font-size: 18px;
+    margin-top: 14px;
+    padding-left: 6px;
+}
+.Three_Dot-Icon{
+    margin-right: 25px;
+    align-items: center;
+    color: blue;
 }

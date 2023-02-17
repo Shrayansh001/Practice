@@ -19,13 +19,22 @@
     
 }
  */
+ .main{
+    display: grid; 
+    grid-template-columns: 760px 240px; 
+     /* grid-column-gap: 5px; */
+     /*display:flex;
+    /*flex-direction: row;
+    width:100%; */
+ }
  .paymentContainer{
     position: absolute;
-    top:51%;
-    left:50%;
+    top:20%;
+    left:40%;
     transform: translate(-50%, -50%);
     background-color: #F0F0F0;
     border: 2px solid #e6dede;
     box-shadow: 24;
-    padding: 12px,
+    padding: 12px;
  }
+

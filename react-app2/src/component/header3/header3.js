@@ -5,6 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { useState } from "react";
 import CurrentAcDataTable from "../CurrentAcDataTable/currentAcDataTable";
 import AccountBalanceOutlinedIcon from '@mui/icons-material/AccountBalanceOutlined';
+import "./header3.css"
 
 export const Header3 = () => {
   const [show, setshow] = useState(1);
@@ -12,7 +13,7 @@ export const Header3 = () => {
     <>
       <Navbar style={{ margin: "2px" }} bg="white" variant="light">
         <Container>
-          <Navbar.Brand href="#account" style={{fontSize:'16px'}}><AccountBalanceOutlinedIcon/>Accounts</Navbar.Brand>
+          <Navbar.Brand href="#account" style={{fontSize:'16px'}}><AccountBalanceOutlinedIcon className="Account_Icon"/>   Accounts  </Navbar.Brand>
           <Nav className="me-auto" style={{fontSize:'12px'}}>
             <Nav.Link
               href="#current_account_set"
