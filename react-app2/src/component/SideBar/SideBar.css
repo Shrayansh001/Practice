@@ -5,6 +5,18 @@
     padding:0;
     margin-bottom:0;
 }
+.Alert{
+    margin-bottom: -52px;
+    display: inline;
+}
+
+.option{
+    margin-bottom: -52px;
+}
+
+.alert-icon {
+    margin-left: 60%;
+}
 
 .Dropdown{
     justify-content: space-around;
@@ -30,6 +42,8 @@
 .midSection{
     margin-top: 5px;
     /* font-size: 12px; */
+    margin: 5px;
+    
 }
 
 .midSectionCard h1{
@@ -59,7 +73,8 @@
 }
 .topSection{
     padding:8px;
-    height:50%;
+    height: 80%;
+    
 }
 
 .midSectionCard h1{
@@ -70,7 +85,7 @@
     font-size: 10px;
 }
 .btn-container{
-    background-color: white;
+    
     margin:0
 }
 .card{

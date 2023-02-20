@@ -11,8 +11,7 @@ import DehazeIcon from "@mui/icons-material/Dehaze";
 import FilterListIcon from "@mui/icons-material/FilterList";
 import AddIcon from "@mui/icons-material/Add";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
-import SearchSharpIcon from '@mui/icons-material/SearchSharp';
-import { Search } from "@mui/icons-material";
+import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
 
 const SideBar = () => {
   return (
@@ -20,8 +19,9 @@ const SideBar = () => {
       <Card
         style={{
           width: "20rem",
-          backgroundColor: " #F0F0F0",
+          backgroundColor: " ",
           marginTop: "-10px",
+          
         }}
       >
         <Card.Img
@@ -51,8 +51,9 @@ const SideBar = () => {
         <Container className="btn-container">
           <Button className="Button">Make a Payment</Button>
         </Container>
-
+          
         <Card className="topSection">
+          
           <div className="searchbar-icon">
             <p>
               <DehazeIcon />
@@ -96,8 +97,20 @@ const SideBar = () => {
                 the bulk of the card's content.
               </p>
             </Card>
+
+            <Card className="Alert">
+              <Card.Title>
+               <NotificationsNoneOutlinedIcon/> Alerts &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<AddIcon/> <KeyboardArrowUpIcon/> 
+              </Card.Title>
+            </Card>
+            <Card>
+              <Card.Body className="option">
+                Payment Declined
+              </Card.Body>
+            </Card>
           </div>
         </Card>
+     
       </Card>
     </>
   );

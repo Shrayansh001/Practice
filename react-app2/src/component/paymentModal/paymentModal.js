@@ -12,16 +12,16 @@ import SideBar from "../SideBar/SideBar";
 
 export const PaymentModal = () => {
   return (
-    
-    <Card style={{ width: "48rem" }} className="paymentContainer">
-      <div className="main">
-        <div className="column1">
+    <Card style={{ width: "52rem" }} className="paymentContainer">
+      <div className="main" style={{background : "#f0f0f0"}}>
+        <div className="column1" style={{paddingLeft : "10px", paddingTop : "10px",paddingBottom : "10px", marginBottom : "-200px", }}> 
           <Header />
           <Header2 />
           <Header3 />
           <BottomBar />
         </div>
-        <div className="column2">
+        <div className="column2" style={{background : "#FOFOFO"}}>
+          
           <SideBar />
         </div>
       </div>
